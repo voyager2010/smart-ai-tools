@@ -20,17 +20,62 @@ body {
 .hero-container-2 {
     background-color: white;
     height: 450px;
-    flex: 1;
     margin-left: 20px;
     border-radius: 20px;
+    border: solid gray 0.5px;
 }
     
 .hero-text-1 {
     text-align: center;
+    color: rgb(254 83 115);
     
 }
 
 .hero-text-2 {
     text-align: center;
+}
+
+.feature-container{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    background-color: rgb(240, 240, 207);
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    color:black;
+    border: solid rgb(152, 151, 151) 0.5px;
+}
+
+.card-img {
+    height: 35px;
+    margin-right: 10px;
+}
+
+.card-btn {
+     padding: 12px 25px;
+    background-color: rgb(254 83 115);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    align-items: center; 
+   
+}
+
+.btn-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
 }
 
