@@ -1,4 +1,17 @@
-body{
-    border: 0;
-    
+body {
+    background: #fff2e6;
+    color: rgb(19, 19, 18);
+    font-family: Arial;
+}
+
+.categories-main-heading-section {
+    width: 100%;
+    text-align: center;
+}
+
+.categories-main-heading-section-1 {
+    color: rgb(254 83 115);
+    font-size: 32px;
+    display: block;
+    margin-top: 20px;
 }
