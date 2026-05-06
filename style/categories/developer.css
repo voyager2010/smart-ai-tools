@@ -106,6 +106,10 @@ body {
     margin: auto;
 }
 
+.btn-know-more {
+    text-decoration: none;
+}
+
 /* Mobile Screen */
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
