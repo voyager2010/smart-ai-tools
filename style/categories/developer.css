@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff2e6;
+}
+
+.developer-card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.tool-card {
+    width: 230px;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+
+.tool-card:hover {
+    transform: translateY(-5px);
+}
+
+
+.card-img {
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+
+.tool-card-heading {
+    font-size: 20px;
+    margin: 10px 0;
+    color: rgb(254 83 115);
+}
+
+
+.tool-card-info {
+    font-size: 14px;
+    color: gray;
+}
+
+
+.tool-card button {
+    display: block;
+    margin: 15px auto 10px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient(45deg, #ff5c8a, #ff7a7a);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.tool- card button:hover {
+    transform: scale(1.05);
+}
