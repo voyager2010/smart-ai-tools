@@ -64,14 +64,19 @@ body {
 
 .card-btn {
     padding: 12px 25px;
-    background-color: rgb(254 83 115);
+   background: linear-gradient(45deg, #ff5c8a, #ff7a7a);
     color: white;
     border: none;
     border-radius: 30px;
     cursor: pointer;
     align-items: center;
     font-size: 15px;
+     transition: 0.3s;
 
+}
+
+.card-btn:hover {
+  transform: scale(1.05);
 }
 
 .btn-main-container {
