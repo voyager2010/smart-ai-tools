@@ -72,7 +72,11 @@ body {
     align-items: center;
     font-size: 15px;
      transition: 0.3s;
+}
 
+.card-btn-1 {
+    text-decoration: none;
+    color: white;
 }
 
 .card-btn:hover {
@@ -84,6 +88,7 @@ body {
     flex-direction: row;
     justify-content: center;
     margin-top: 30px;
+
 }
 
 .home-text-container {
