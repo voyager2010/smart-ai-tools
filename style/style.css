@@ -123,7 +123,6 @@ body {
     border: 0.5px solid #eee;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     transition: 0.3s;
-    margin-bottom: 30px;
 }
 
 .choose-card:hover {
