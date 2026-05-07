@@ -1,3 +1,246 @@
 body {
+    background: #fff2e6;
+    font-family: Arial;
+}
+
+.chatgpt-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.chatgpt-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.chatgpt-page-img {
+    height: 70px;
+    margin-top: 40px;
+
+}
+
+.chatgpt-heading {
+    margin-top: 60px;
+    margin-left: 20px;
+    color: rgb(254 83 115);
+
+}
+
+.chatgpt-info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.chatgpt-screenshot-img {
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+
+.tool-page-container {
+    padding: 50px;
+}
+
+
+.tool-logo {
+    width: 100px;
+}
+
+.tool-name {
     margin: 0;
+    font-size: 40px;
+}
+
+.tool-tagline {
+    color: gray;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.visit-btn {
+    background: linear-gradient(45deg, #ff5c8a, #ff7a7a);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.details-card {
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 18px;
+}
+
+.card-heading {
+    margin-top: 0;
+    color: #ff4d6d;
+}
+
+
+.feature-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.feature-box {
+    background-color: #f8f8f8;
+    width: 220px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+     border: 1px solid #eee;
+}
+.feature-box:hover {
+ transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  border-color: #ff5c8a;
+}
+
+.feature-box-img {
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.choose-card-container {
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.choose-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    width: 350px;
+    padding: 18px;
+    border-radius: 14px;
+    background: #ffffff;
+    border: 1px solid #eee;
+
+    transition: 0.3s;
+}
+
+.icon-box {
+    background: #fff0f5;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.card-img {
+    width: 50px;
+}
+
+.content h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+}
+
+.content p {
+    font-size: 14px;
+    color: #666;
+    margin: 8px 0 12px;
+}
+
+.top-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+.use-case-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.use-case-card {
+    background-color: #f8f8f8;
+    width: 220px;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+
+.advantages-list {
+    margin: 10px 0;
+}
+
+.pricing-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 18px;
+    margin-top: 25px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.pricing-heading {
+    text-align: center;
+    color: #ff4d6d;
+    margin-bottom: 25px;
+}
+
+
+
+.plan-card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+
+    transition: 0.3s;
+}
+
+.plan-card:hover {
+    transform: translateY(-5px);
+}
+
+
+.plan-card h3 {
+    margin-top: 0;
+}
+
+.plan-info {
+    color: #555;
+    line-height: 1.6;
+}
+
+
+.plan-list {
+    padding-left: 20px;
+}
+
+.plan-list {
+    margin: 10px 0;
 }
