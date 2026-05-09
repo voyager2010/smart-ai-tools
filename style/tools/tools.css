@@ -25,7 +25,6 @@ body {
     margin-top: 60px;
     margin-left: 20px;
     color: rgb(254 83 115);
-
 }
 
 .chatgpt-info {
@@ -76,6 +75,7 @@ body {
     cursor: pointer;
 }
 
+
 .details-card {
     margin-top: 25px;
     padding: 25px;
@@ -93,7 +93,7 @@ body {
     flex-wrap: wrap;
     gap: 20px;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .feature-box {
@@ -103,12 +103,13 @@ body {
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     transition: 0.3s;
-     border: 1px solid #eee;
+    border: 1px solid #eee;
 }
+
 .feature-box:hover {
- transform: translateY(-8px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-  border-color: #ff5c8a;
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    border-color: #ff5c8a;
 }
 
 .feature-box-img {
@@ -116,12 +117,10 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
-
 }
 
 .choose-card-container {
-     display: flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
@@ -170,77 +169,204 @@ body {
     align-items: center;
 }
 
+/* Section */
 
+.pricing-section {
 
+    width: 90%;
+    margin: 40px auto;
+    margin-top:0;
 
-
-
-
-
-
-.use-case-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
 }
 
-.use-case-card {
-    background-color: #f8f8f8;
-    width: 220px;
-    padding: 15px;
-    border-radius: 12px;
-}
-
-
-.advantages-list {
-    margin: 10px 0;
-}
-
-.pricing-card {
-    background-color: white;
-    padding: 25px;
-    border-radius: 18px;
-    margin-top: 25px;
-
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-}
+/* Heading */
 
 .pricing-heading {
+
     text-align: center;
-    color: #ff4d6d;
-    margin-bottom: 25px;
+    color: #1e293b;
+    font-size: 28px;
+    color: #ff5c8a;
+    margin-bottom: 30px;
 }
 
+/* Container */
 
+.pricing-container {
 
-.plan-card {
-    background-color: #f8f8f8;
-    padding: 20px;
-    border-radius: 15px;
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
+/* Card */
+
+.pricing-card {
+
+    width: 320px;
+    background-color: white;
+    border-radius: 18px;
+    padding: 18px;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
     transition: 0.3s;
 }
 
-.plan-card:hover {
-    transform: translateY(-5px);
+/* Hover */
+
+.pricing-card:hover {
+    transform: translateY(-6px);
 }
 
+/* Tags */
 
-.plan-card h3 {
-    margin-top: 0;
+.plan-tag {
+
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 15px;
 }
+
+.free-tag {
+    background-color: #22c55e;
+}
+
+.plus-tag {
+    background-color: #a855f7;
+}
+
+/* Name */
+
+.plan-name {
+    margin-top: 40px;
+    margin-bottom: 8px;
+    color: #1e293b;
+}
+
+/* Info */
 
 .plan-info {
-    color: #555;
-    line-height: 1.6;
+
+    color: gray;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Price */
+
+.price-box {
+    margin-top: 15px;
+}
+
+.price {
+
+    font-size: 38px;
+    font-weight: bold;
+    color: #22c55e;
+}
+
+.purple-text {
+
+    color: #a855f7;
+}
+
+.month {
+
+    color: gray;
+
+    font-size: 14px;
+}
+
+/* Features */
+
+.features-container {
+
+    margin-top: 18px;
+}
+
+.features-container p {
+
+    background-color: #f8fafc;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+/* Buttons */
+
+.plan-btn {
+
+    width: 100%;
+    margin-top: 18px;
+    padding: 11px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.free-btn {
+
+    background-color: #22c55e;
+}
+
+.plus-btn {
+
+    background: linear-gradient(45deg, #9333ea, #c026d3);
+}
+
+/* Button Hover */
+
+.plan-btn:hover {
+
+    transform: scale(1.02);
+}
+
+/* Different Background */
+
+.free-card {
+
+    border: 2px solid #dcfce7;
+}
+
+.plus-card {
+
+    border: 2px solid #f3e8ff;
 }
 
 
-.plan-list {
-    padding-left: 20px;
+/* Mobile Screen */
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+
+  .chatgpt-screenshot-img {
+    width: 100%; 
+} 
+
+.feature-box {
+    width: 100%;
 }
 
-.plan-list {
-    margin: 10px 0;
+.feature-box-container {
+    gap: 5;
 }
+
+.details-card {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.tool-page-container{
+    padding: 20px;
+}
+
+}
+
